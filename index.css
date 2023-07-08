@@ -1,0 +1,161 @@
+*{
+    margin:0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    color: white;
+    
+    height: 100vh;
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+    background-image: url("background2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.container{
+position: relative;
+height: 500px;
+width: 1000px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: rgb(225, 185, 177);
+box-shadow: 10px 10px 20px  black;
+
+}
+
+.container .days{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container .day,
+.container .number
+{
+    height: 45px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+}
+.container .prev-date
+{
+    height: 45px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+
+
+
+}
+.container .prev-date{
+    color: rgb(109, 89, 89);
+}
+.container .number:hover,
+.container .pre-date:hover{
+    border: 2px solid;
+    
+    
+}
+.container .date
+{
+    width: 380px;
+    padding: 25px;
+
+}
+.container h3{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 15px 30px;
+
+
+}
+.container .image{
+    position: absolute;
+    top :0px;
+    right: 0px;
+
+}
+.container img{
+    height: 500px; 
+    padding: 30px;
+    width: 500px;
+}
+.navbar{
+    
+    color: rgb(61, 53, 53);
+    width: 100%;
+    position: fixed;
+    
+
+} 
+.b1{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul{
+    display:flex;
+    list-style-type: none;
+    
+}
+.navbar ul li{
+    margin: 1rem;
+
+    
+}
+.poppy:hover{
+    border-bottom: 2px solid black ;
+    cursor: pointer;
+
+}
+#mynav{
+    padding-left: 14rem;
+    font-family: "Lucida handwriting", "Courier New", monospace;
+    font-size: 20px;
+    color: rgb(14, 13, 13);
+    font-weight: 900;
+    /* text-shadow: 0 0 3px #090808, 0 0 5px #000000; */
+
+}
+.buttons{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    margin-left: 250px;
+   
+    
+
+}
+.btn1
+{
+    margin: left;
+    padding: 1rem;
+    margin-bottom: 10rem;
+    background-color: rgb(238, 245, 194);
+    border-radius: 15px;
+    font-size: 14px ;
+    border: 2px solid rgb(255, 221, 136) ;
+    width: 300px;
+    display: inline-block;
+   
+}
+.btn:hover{
+    cursor: pointer;
+    background: none;
+    color: rgb(223, 223, 236);
+    font-size: 20px;
+    border: none;
+    transition-duration: 0.4s;
+    
+}
